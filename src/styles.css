@@ -1,0 +1,74 @@
+/* #sidebar {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+#sidebar .nav-link {
+    color: #000;
+}
+
+#sidebar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#page-content {
+    padding: 20px;
+}
+
+.hero-section {
+    background-color: #e9ecef;
+    margin-bottom: 20px;
+} */
+
+
+
+/* Custom styles for the Home component */
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.btn {
+    align-self: flex-end;
+}
+
+#sidebar {
+    padding-top: 20px;
+}
+
+#sidebar .nav-link {
+    color: #000;
+}
+
+#sidebar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#page-content {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        padding-top: 10px;
+    }
+
+    #page-content {
+        padding: 10px;
+    }
+}
+

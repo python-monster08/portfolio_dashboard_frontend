@@ -1,0 +1,184 @@
+/* Custom styles for the Home component */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.btn {
+  align-self: flex-end;
+}
+
+/* Custom styles for the Sidebar component */
+#sidebar {
+  padding-top: 20px;
+  background-color: #9aa4ac; /* Dark background color */
+}
+
+#sidebar .nav-link {
+  color: #84aad1; /* Light font color */
+}
+
+#sidebar .nav-link:hover {
+  color: red; /* Hover color yellow */
+}
+
+#sidebar .nav-link.active {
+  font-weight: bold;
+  color: #007bff; /* Active color blue */
+}
+
+#page-content {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+      padding-top: 10px;
+  }
+
+  #page-content {
+      padding: 10px;
+  }
+}
+
+/* Custom styles for the Header component */
+.hero-section {
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  padding: 40px 0;
+  background-image: url('https://source.unsplash.com/1600x900/?technology');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+      padding: 20px 0;
+  }
+
+  .hero-section h1 {
+      font-size: 2rem;
+  }
+
+  .hero-section p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+      font-size: 1.5rem;
+  }
+
+  .hero-section p {
+      font-size: 0.9rem;
+  }
+}
+
+/* Custom styles for the Footer component */
+.footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  margin-top: 20px;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+      font-size: 0.8rem;
+  }
+}
+
+/* Custom styles for the ExperienceForm component */
+.form-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+      padding: 15px;
+  }
+}
+
+/* Custom styles for the ExperienceList component */
+.table-responsive-sm {
+  overflow-x: auto;
+}
+
+/* Custom styles for the App */
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
