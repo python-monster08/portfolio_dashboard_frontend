@@ -83,13 +83,13 @@ const ExperienceForm = ({ fetchExperiences }) => {
                     <Col xs={12} md={6}>
                         <Form.Group className="mb-3">
                             <Form.Label style={{ textAlign: 'left', width: '100%' }}>Start Date</Form.Label>
-                            <Form.Control type="date" name="startDate" value={formData.startDate} onChange={handleChange} />
+                            <Form.Control type="text" name="startDate" value={formData.startDate} onChange={handleChange} />
                         </Form.Group>
                     </Col>
                     <Col xs={12} md={6}>
                         <Form.Group className="mb-3">
                             <Form.Label style={{ textAlign: 'left', width: '100%' }}>End Date</Form.Label>
-                            <Form.Control type="date" name="endDate" value={formData.endDate} onChange={handleChange} />
+                            <Form.Control type="text" name="endDate" value={formData.endDate} onChange={handleChange} />
                         </Form.Group>
                     </Col>
                 </Row>
